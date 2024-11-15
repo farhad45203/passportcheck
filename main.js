@@ -22,7 +22,7 @@ function checkPassport(event) {
 
   // Display a popup if a match is found
   if (result) {
-    alert(`ID: ${result.id}\nName: ${result.name}`);
+    alert(`Congratulations\nID: ${result.id}\nName: ${result.name}`);
   } else {
     alert("No match found. Please check the passport number.");
   }
